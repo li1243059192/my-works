@@ -1,0 +1,57 @@
+
+
+
+
+body,ul,li,div,span,h2,h1,h3,h4,a,p,ol{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.sprite{
+    background: url("../img/sprite.png") no-repeat;
+}
+.sp1{
+    background-position: 0 0;
+}
+.sp2{
+    background-position:0px -26px;
+}
+.sp3{
+    background-position:0px -13px;
+}
+.sp4{
+    background-position: 0px -41px;
+}
+.sp5{
+    background-position: 0 -54px;
+}
+.sp6{
+    background-position: 0 -137px;
+}
+.sp7{
+    background-position:0 -109px;
+}
+.sp9{
+    background-position:0 -165px;
+}
+.sp10{
+    background-position:0 -173px;
+}
+.sp11{
+    background-position: 0 -197px;
+}
+.sp12{
+    background-position: -8px 0;
+}

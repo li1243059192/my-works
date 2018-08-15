@@ -1,0 +1,489 @@
+@charset "UTF-8";
+
+/*by Li*/
+
+
+
+.Incubator{
+    width:1440px;
+    height:2050px;
+    margin:0 auto;
+    background: white;
+}
+header{
+    width:1440px;
+    height:104px;
+    background:  #f4f4f4;
+}
+header>figure{
+    width:380px;
+    height:104px;
+    margin-left:121px;
+    float: left;
+}
+header article{
+    float:right;
+    width:447px;
+    height:104px;
+}
+header article figure{
+    float: left;
+    line-height:104px;
+    margin-top:10px;
+}
+header article h2{
+    float: left;
+    line-height:104px;
+    margin-left:2px;
+    font-size:16px;
+    color: #6c6e71;
+}
+header article em{
+    float: left;
+    font-style: normal;
+    line-height:104px;
+    margin-left:10px;
+    color: #6c6e71;
+    font-size:16px;
+}
+header article span{
+    display: block;
+    float: left;
+    line-height:104px;
+    margin-left:10px;
+    color: #6c6e71;
+    font-size: 16px;
+}
+header article button{
+    float: left;
+    width:65px;
+    height:33px;
+    background:#F08A33;
+    margin-left:20px;
+    margin-top:36px;
+    border: none;
+    color:white;
+    font-family: "黑体";
+    font-size:16px;
+    border-radius:2px;
+}
+nav.menu{
+    width:1440px;
+    height:71px;
+    background:#3169CA;
+}
+nav.menu ul{
+    width:1080px;
+    height:71px;
+    margin-left:121px;
+}
+nav.menu ul li{
+    float: left;
+    width:140px;
+    height:71px;
+    line-height:60px;
+}
+nav.menu ul li.first{
+    width:97px;
+}
+nav.menu ul li ol{
+    width:140px;
+    height:0px;
+    overflow:hidden;
+    position: absolute;
+    transition: all linear 1s;
+    top:175px;
+}
+nav.menu ul li ol li{
+    width:140px;
+    height:50px;
+    text-align:center;
+    background:#718FE3;
+    outline: 1px solid black;
+}
+nav.menu ul li:hover ol{
+    height:150px;
+    transition: all linear 1s;
+}
+nav.menu ul li a{
+    display: block;
+    width:140px;
+    height:71px;
+    text-align: center;
+    position: relative;
+    color:white;
+    font-family: "黑体";
+    font-size:15px;
+}
+nav.menu ul li a span{
+    display:block;
+    width:140px;
+    height:24px;
+    line-height:24px;
+    position: absolute;
+    top:38px;
+}
+nav.menu ul li.first a{
+    display: block;
+    width:97px;
+    height:71px;
+    text-align: center;
+}
+nav.menu ul li.first a span{
+    width:97px;
+    height:24px;
+    line-height: 24px;
+}
+nav.menu ul li a em{
+    display: block;
+    width: 10px;
+    height:10px;
+    position: absolute;
+    top:26px;
+    left:100px;
+    background: url("../img/03.png") no-repeat;
+}
+.Incubator_main{
+    width:1440px;
+    background:white;
+}
+.Incubator_main>figure>img{
+    width:1199px;
+    height:513px;
+    margin-left:121px;
+}
+.Incubator_main .main_left{
+    width:770px;
+    float:left;
+    margin-left: 121px;
+    background: white;
+}
+.Incubator_main .information{
+    width:770px;
+    height:360px;
+    position: relative;
+}
+.Incubator_main .information ul:nth-child(1){
+    width:748px;
+    height:48px;
+    border-bottom:1px solid #CBCBCB;
+}
+.Incubator_main .information ul:nth-child(1) li a{
+    float: left;
+    display: block;
+    width:87px;
+    height:48px;
+    margin-right:36px;
+    line-height:48px;
+    font-size:18px;
+    font-family: "黑体";
+    color:black;
+}
+.Incubator_main .information ul:nth-child(1) li a:hover{
+    border-bottom:2px solid #2F64C0;
+    color:#2F64C0;
+}
+.Incubator_main .information figure{
+    display: block;
+    width:280px;
+    height:210px;
+    float: left;
+    position:absolute;
+    left:0px;
+}
+.Incubator_main .information figure img{
+    width:280px;
+    height:160px;
+    margin-top:20px;
+    transition: 1s;
+}
+.Incubator_main .information figure p{
+    font-family: "黑体";
+    font-size:14px;
+    color: #222222;
+}
+.Incubator_main .information ul:nth-child(3){
+    width: 430px;
+    height:200px;
+    float:right;
+    margin-top:7px;
+    margin-right:50px;
+}
+.Incubator_main .information ul:nth-child(3) li em{
+    display: block;
+    width:8px;
+    height:8px;
+    background:url("../img/07.png");
+    float: left;
+    margin-top:6px;
+    margin-right:8px;
+    margin-left:8px;
+}
+.Incubator_main .information ul:nth-child(3) li{
+    width:430px;
+    height:20px;
+    margin-top:13px;
+    font-size:14px;
+}
+.Incubator_main .information ul:nth-child(4){
+    width:798px;
+    height:64px;
+    float: left;
+}
+.Incubator_main .information ul:nth-child(4) li a{
+    width:152px;
+    height:64px;
+    line-height:64px;
+    text-align: center;
+    border:1px solid #B4CCE1;
+    background: #DBEEF5;
+    margin-right:25px;
+    float: left;
+    border-radius:5px;
+    margin-top:24px;
+    font-size:16px;
+    color: #2F64BF;
+}
+.Incubator_main .tour{
+    width:798px;
+    height:435px;
+}
+.Incubator_main .tour h2{
+    font-size:16px;
+    color:#000000;
+    height:38px;
+    width:460px;
+    line-height:38px;
+    border-bottom: 1px solid #B0B0B0;
+}
+.Incubator_main .tour h2 span{
+    float:right;
+    display:block;
+    margin-right:300px;
+    color:#B0B0B0;
+}
+.Incubator_main .tour>figure{
+    width:460px;
+    height:368px;
+    margin-top:16px;
+    float:left;
+}
+.Incubator_main .tour>figure img{
+    float:left;
+    margin-right:15px;
+    margin-top:10px;
+}
+.Incubator_main .tour article{
+    width:295px;
+    height:392px;
+    background:#F4F4F4;
+    float:left;
+    margin-top:-16px;
+    margin-left:10px;
+}
+.Incubator_main .tour article h3{
+    font-size:18px;
+    margin-left:20px;
+    margin-top:20px;
+}
+.Incubator_main .tour article p{
+    width:277px;
+    height:265px;
+    line-height:33px;
+    font-size:14px;
+    margin-top:10px;
+    margin-left:20px;
+}
+.Incubator_main .tour article span{
+    display:block;
+    color:red;
+    margin-top:10px;
+    margin-left:200px;
+    font-size:14px;
+}
+.Incubator_main .main_right{
+    width:399px;
+    float:right;
+   margin-right:121px;
+    background: white;
+}
+.Incubator_main .main_right .activities{
+    width:399px;
+    height:432px;
+}
+.Incubator_main .main_right .activities h2{
+    font-size:16px;
+    width:399px;
+    height:46px;
+    line-height:46px;
+    border-bottom:1px solid #CBCBCB;
+}
+.Incubator_main .main_right .activities h2 span{
+    font-size:15px;
+    color:#B0B0B0;
+    margin-left:10px;
+}
+.Incubator_main .main_right .activities ul li{
+    width:399px;
+    height:90px;
+    margin-top:23px;
+}
+.Incubator_main .main_right .activities ul li img{
+    float:left;
+    transition:1s;
+}
+.Incubator_main .main_right .activities ul li img:hover{
+    transform: scale(1.1);
+    transition:1s;
+}
+.Incubator_main .main_right .activities ul li p{
+    float:left;
+    width:274px;
+    font-size:18px;
+    margin-left:10px;
+}
+.Incubator_main .main_right .activities ul li article{
+    float: left;
+    width:274px;
+    margin-left:10px;
+    font-size:14px;
+    color:#999999;
+}
+.Incubator_main .main_right .model{
+    width:399px;
+    height:359px;
+}
+.Incubator_main .main_right .model h2{
+    font-size:16px;
+    width:399px;
+    height:46px;
+    line-height:46px;
+    border-bottom:1px solid #CBCBCB;
+}
+.Incubator_main .main_right .model h2 span{
+    font-size:15px;
+    color:#B0B0B0;
+    margin-left:10px;
+}
+.Incubator_main .main_right .model li{
+    width:110px;
+    height:120px;
+    float:left;
+    margin-bottom:12px;
+    margin-right:20px;
+}
+.Incubator_main .main_right .model li p{
+    text-align:center;
+    color:#222222;
+    font-size:14px;
+}
+.Incubator_main .services{
+    width:1200px;
+    height:404px;
+    float: left;
+    margin-left:121px;
+    background: white;
+}
+.Incubator_main .services h2{
+    font-size:16px;
+    width:1200px;
+    height:46px;
+    line-height:46px;
+    border-bottom:1px solid #CBCBCB;
+}
+.Incubator_main .services h2 span{
+    font-size:15px;
+    color:#B0B0B0;
+    margin-left:10px;
+}
+.Incubator_main .services li{
+    width:200px;
+    height:335px;
+    margin-top:20px;
+    margin-left:33px;
+    float:left;
+}
+.Incubator_main .services li img{
+    transition: 1s;
+}
+.Incubator_main .services li img:hover{
+    -webkit-transform:rotateY(180deg);
+    transition: 2s;
+}
+.Incubator_main .services li p{
+    font-size:16px;
+    width:200px;
+    height:52px;
+    line-height:52px;
+    border-bottom:1px dashed #CCCCCC;
+}
+.Incubator_main .services li span{
+    width:200px;
+    height:43px;
+    line-height:43px;
+    color:#000000;
+    font-size:16px;
+}
+.Incubator_main .services li span strong{
+    color:#FF5A00;
+}
+.Incubator_main .services li article{
+    color:#999999;
+}
+.Incubator_main .intrduce{
+    width:1440px;
+    height:41px;
+    background:#2F64C0;
+    float:left;
+}
+.Incubator_main .intrduce ul{
+    width:870px;
+    margin:0 auto;
+    height:41px;
+}
+.Incubator_main .intrduce ul li a{
+    float:left;
+    line-height:41px;
+    height:41px;
+    width:76px;
+    margin-left:20px;
+    font-size:15px;
+    font-family:"黑体";
+    color:white;
+
+}
+.Incubator_main .intrduce ul li span{
+    float: left;
+    width:4px;
+    height:41px;
+    line-height:41px;
+    margin-left:10px;
+    color:white;
+}
+.Incubator footer{
+    width:1200px;
+    height:125px;
+    margin-left:141px;
+    float: left;
+    background: white;
+}
+.Incubator footer section{
+    float: left;
+}
+.Incubator footer section p{
+    margin-top:8px;
+    font-size:12px;
+}
+.Incubator footer section p span{
+    margin-left:20px;
+}
+.Incubator footer figure{
+    float: right;
+    margin-right:40px;
+    margin-top:20px;
+}
+.Incubator footer figure p{
+    text-align: center;
+}
+
+

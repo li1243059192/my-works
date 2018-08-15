@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/*by Li*/
+
+
+body,div,ul,li,span,p,em,h2{
+    margin: 0;
+    padding: 0;
+}
+
+
+.htlang{
+    width: 320px;
+    height: 480px;
+    margin: 100px auto;
+    background:url("../images/game_bg.jpg") no-repeat;
+    position: relative;
+}
+.htlang h2{
+    position: absolute;
+    left:60px;
+    top:8px;
+    color:white;
+}
+.htlang span.time{
+    position: absolute;
+    width:180px;
+    height:16px;
+    display: block;
+    left:63px;
+    top:66px;
+    background: url("../images/progress.png") no-repeat;
+}
+.htlang .start{
+    width:150px;
+    height:35px;
+    display: block;
+    line-height:35px;
+    text-align: center;
+    background:linear-gradient(#E55C3D,#C50000);
+    border:none;
+    border-radius:20px;
+    position:absolute;
+    top:320px;
+    left:85px;
+    color: white;
+}
+.htlang .footer{
+    width:100%;
+    height:20px;
+    line-height:20px;
+    position: absolute;
+    text-align: center;
+    background:#ccc;
+    bottom:0px;
+}
+.htlang .rule{
+    width:100%;
+    height:480px;
+    position: absolute;
+    z-index:99;
+    display: none;
+    background:rgba(0,0,0,0.5);
+}
+.htlang .rule p{
+    width: 100%;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top:30px;
+    color: white;
+}
+.htlang .rule p.rule1{
+    margin-top:100px;
+}
+.htlang .rule p.stop{
+    color:red;
+}
+.htlang .restart{
+    display: none;
+    width:100%;
+    height:480px;
+    position: absolute;
+    z-index:99;
+    background:rgba(0,0,0,0.5);
+}
+.htlang .restart p{
+    width:100%;
+    height:60px;
+    line-height:60px;
+    text-align: center;
+    position:absolute;
+    top:200px;
+    color: #ff4500;
+    text-shadow: 3px 3px 0 #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+.htlang .restart span{
+    width:150px;
+    height:35px;
+    display: block;
+    line-height:35px;
+    text-align: center;
+    background:linear-gradient(#74ACCF,#007DDC);
+    border:none;
+    border-radius:20px;
+    position:absolute;
+    top:320px;
+    left:85px;
+    color: white;
+}
+

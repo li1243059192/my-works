@@ -1,0 +1,710 @@
+@charset "utf-8";
+
+
+body,ul,li,h2,h3,h4,p,em,form,input,span{padding:0;margin:0;}
+ul,li,a,em{list-style:none;}
+a{text-decoration:none;}
+body{
+    background:url(../img/01.png) repeat-x;
+}
+.mlbg{
+    display:none;
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:999;
+    background:black;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+}
+ .register{
+     display:none;
+     width:400px;
+     height:300px;
+     background:url(../img/85.png) no-repeat;
+     position:fixed;
+     z-index:999;
+     top:34%;
+     left:38%;
+     border-radius:4px;
+ }
+ .register span{
+     width:31px;
+     height:30px;
+     margin-left:366px;
+     margin-top:6px;
+     cursor: pointer;
+ }
+ .register .box{
+     width:200px;
+     height:260px;
+     margin:0 auto;
+     margin-top:20px;
+ }
+ .register .box p{
+     width:200px;
+     height:30px;
+     line-height:30px;
+     margin-top:28px;
+ }
+ .register .box p input{
+     border:none;
+     border-bottom:1px solid black;
+     width:120px;height:30px;
+ }
+ .register .box .sub{
+     width:160px;
+     height:30px;
+     line-height:30px;
+     margin-left:22px;
+     margin-top:85px;
+     background:url(../img/81.png) no-repeat;
+     cursor: pointer;
+ }
+.mlwz{
+    width:980px;
+    height:4426px;
+    margin:0 auto;
+}
+.mlwz .mltop{
+    width:980px;
+    height:25px;
+}
+.mlwz .mltop span{
+    float:right;
+    width:160px;
+    height:25px;
+    line-height:25px;
+    font-size:14px;
+    color:white;
+}
+.mlwz .mltop span a{
+    font-size:14px;
+    margin-right:6px;
+    color:white;
+}
+.mlwz .mltop span a:hover{
+    color:black;
+}
+.mlwz .mlheader{
+    width:980px;
+    height:107px;
+    background:url(../img/02.png) no-repeat;
+}
+.mlwz .mlheader ul{
+    width:698px;
+    height:107px;
+    text-align:center;
+    float:right;
+}
+.mlwz .mlheader ul li{
+    width:74px;
+    height:107px;
+    line-height:107px;
+    text-align:center;
+    float:left;
+    margin-right:32px;
+    margin-left:8px;
+}
+.mlwz .mlheader ul li a{
+    color:black;;
+}
+.mlwz .mlheader ul li a:hover{
+    color:blue;
+}
+.mlwz .mlphoto{
+    width:980px;
+    height:600px;
+}
+.mlwz .mlphoto img{
+    width:1920px;
+    height:600px;
+    margin-left:-474px;
+}
+.mlwz .mlmaintop{
+    width:980px;
+    height:398px;
+    /*overflow: hidden;*/
+    position: relative;
+}
+.mlwz .mlmaintop h2{
+    width:980px;
+    height:48px;
+    line-height:48px;
+    text-align: center;
+    font-size:20px;
+    color:#666666;
+}
+.mlwz .mlmaintop p{
+    width:980px;
+    height:33px;
+
+}
+.mlwz .mlmaintop p em{
+    display: block;
+    width:103px;
+    height:33px;
+    line-height:33px;
+    text-align:center;
+    background:#015393;
+    font-style: normal;
+    font-size:18px;
+    color:white;
+    margin:0 auto;
+}
+.mlwz .mlmaintop .top{
+    width:930px;
+    height:240px;
+    overflow:hidden;
+
+}
+.mlwz .mlmaintop .top ul{
+    width:1400px;
+    height:205px;
+    margin-top:35px;
+    float: left;
+}
+.mlwz .mlmaintop .top ul li{
+    width:120px;
+    height:164px;
+    float:left;
+    padding-right:8px;
+    margin-left:30px;
+}
+.mlwz .mlmaintop .top ul li em{
+    display: block;
+    width:120px;
+    height:41px;
+    line-height:41px;
+    text-align: center;
+    font-style: normal;
+    margin-top:-4px;
+    color:#666666;
+    cursor: pointer;
+}
+.mlwz .mlmaintop botton{
+    width:40px;
+    height:47px;
+    position: absolute;
+    left:950px;
+    top:200px;
+    z-index:99;
+
+}
+
+.mlwz .mlmainmid{
+    clear: both;
+    width:980px;
+    height:538px;
+}
+
+
+/*3d效果*/
+.mlwz .mlmainmid .mlmainmid_png{
+    position: relative;
+    z-index: 2;
+    height: 366px;
+    transform-style: preserve-3d;
+    perspective: 800px;
+}
+.mlwz .mlmainmid .mlmainmid_png img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width:120px;
+    height:250px;
+    margin-left: -60px;
+    margin-top:-150px;
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+.mlwz .mlmainmid h2{
+    width: 360px;
+    height:31px;
+    margin-left:400px;
+    font-size:20px;
+    color:#666666;
+}
+.mlwz .mlmainmid p{
+    width:360px;
+    height:31px;
+    line-height:31px;
+    margin-left:400px;
+    color:#666666;
+}
+.mlwz .mlmainmid p strong{
+    display: block;
+    width:80px;
+    height:31px;
+    line-height:31px;
+    float: left;
+}
+.mlwz .mlmainmid p a{
+    width:111px;
+    height:31px;
+    margin-left:20px;
+    float: left;
+    cursor: pointer;
+}
+.mlwz .mlmainbotton{
+    width:980px;
+    height:615px;
+}
+.mlwz .mlmainbotton h2{
+    width:980px;
+    height:30px;
+    line-height:18px;
+    text-align: center;
+    padding-top:28px;
+    color:#666666;
+    font-size:20px;
+}
+.mlwz .mlmainbotton p{
+    width:103px;
+    height:33px;
+    line-height:33px;
+    text-align: center;
+    font-size:18px;
+    margin:0 auto;
+    background:#015393;
+    color:white;
+}
+.mlwz .mlmainbotton ul{
+    width:980px;
+    height:410px;
+    margin-top:30px;
+}
+.mlwz .mlmainbotton ul li{
+    width:260px;
+    height:410px;
+    float: left;
+    margin-left:49px;
+}
+.mlwz .mlmainbotton ul li h2{
+    width:260px;
+    height:45px;
+    line-height:45px;
+    text-align:center;
+    font-size:24px;
+    margin-top:-20px;
+
+
+}
+.mlwz .mlmainbotton ul li p{
+    width:160px;
+    height:50px;
+    line-height:20px;
+    margin:0 auto;
+    font-size:11px;
+    margin-top:15px;
+    color:#666666;
+    background-color:#FDFDFE;
+}
+.mlwz .mlmainbotton ul li em{
+    display: block;
+    width:96px;
+    height:28px;
+    line-height:28px;
+    text-align:center;
+    margin:0 auto;
+    font-size:13px;
+    font-style:normal;
+    margin-top:8px;
+    color:#005AA9;
+    cursor: pointer;
+}
+.mlwz .mldevelop{
+    width:980px;
+    height:917px;
+}
+.mlwz .mldevelop h2{
+    width:980px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    font-size:20px;
+    padding-top:20px;
+    color:#666666;
+}
+.mlwz .mldevelop p{
+    width:103px;
+    height:33px;
+    line-height:33px;
+    text-align: center;
+    font-size:18px;
+    margin:0 auto;
+    background:#015393;
+    margin-top:8px;
+    color:white;
+}
+.mlwz .mldevelop span{
+    display: block;
+    width:980px;
+    height:271px;
+    margin-top:30px;
+}
+.mlwz .mldevelop em{
+    display: block;
+    width:905px;
+    height:50px;
+    line-height:24px;
+    margin: 0 auto;
+    font-size:14px;
+    margin-top:12px;
+    font-style: normal;
+}
+.mlwz .mldevelop ul.year{
+    width:874px;
+    height:28px;
+    margin-top:30px;
+    margin:0 auto;
+}
+.mlwz .mldevelop ul.year li{
+    width:46px;
+    height:20px;
+    line-height:27px;
+    float: left;
+    margin-left:12px;
+    font-size:14px;
+}
+.mlwz .mldevelop img.point{
+    width:869px;
+    height:29px;
+    margin-left:56px;
+}
+.mlwz .mldevelop ul.things{
+    width:900px;
+    height: 380px;
+    margin-left:30px;
+
+}
+.mlwz .mldevelop ul.things li{
+    width:17px;
+    height:380px;
+    float: left;
+    font-size:11px;
+    margin-left:42px;
+}
+.mlwz .mlserver{
+    width:980px;
+    height:512px;
+}
+.mlwz .mlserver h2{
+    width:980px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    font-size:20px;
+    padding-top:20px;
+    color:#666666;
+}
+.mlwz .mlserver p{
+    width:103px;
+    height:33px;
+    line-height:33px;
+    text-align: center;
+    font-size:18px;
+    margin:0 auto;
+    background:#015393;
+    margin-top:8px;
+    color:white;
+}
+.mlwz .mlserver ul{
+    width:980px;
+    height:364px;
+    margin-top:60px;
+}
+.mlwz .mlserver ul li{
+    width:244px;
+    height:182px;
+    float:left;
+}
+.mlwz .mlserver ul li span{
+    display:block;
+    width:100px;
+    height:100px;
+    line-height:100px;
+    text-align:center;
+    margin:0 auto;
+}
+.mlwz .mlserver ul li a{
+    display:block;
+    width:244px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    color:#666666;
+}
+.mlwz .mlserver ul li a:hover{
+    color:hotpink;
+}
+.mlwz .mlcontact{
+    width:980px;
+    height:445px;
+}
+.mlwz .mlcontact h2{
+    width:980px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    font-size:20px;
+    padding-top:20px;
+    color:#666666;
+}
+.mlwz .mlcontact p{
+    width:103px;
+    height:33px;
+    line-height:33px;
+    text-align: center;
+    font-size:18px;
+    margin:0 auto;
+    background:#015393;
+    margin-top:8px;
+    color:white;
+}
+.mlwz .mlcontact .cotway{
+    width:475px;
+    height:219px;
+    margin-top:50px;
+    float:left;
+    position:relative;
+}
+.mlwz .mlcontact .cotway img{
+    position:absolute;
+    top:56px;
+    left:200px;
+}
+.mlwz .mlcontact .cotway ul{
+    width:475px;
+    height:174px;
+    margin-left:20px;
+}
+.mlwz .mlcontact .cotway ul li{
+    width:216px;
+    height:28px;
+    line-height:28px;
+    margin-bottom:8px;
+}
+.mlwz .mlcontact .cotway ul li a{
+    display:block;
+    width:32px;
+    height:28px;
+    cursor:pointer;
+    float:left;
+}
+.mlwz .mlcontact .cotway ul li span{
+    float:left;
+    font-size:12px;
+    color:#666666;
+    margin-left:4px;
+}
+.mlwz .mlcontact .cotway ul li span.cont{
+    font-size:18px;
+}
+.mlwz .mlcontact .cotway ul li span.cont em{
+    color:#032A6A;
+    font-style:normal;
+}
+.mlwz .mlcontact span.cotphoto{
+    display:block;
+    width:200px;
+    height:45px;
+    margin-left:20px;
+}
+.mlwz .mlcontact span.cotphoto a{
+    display:block;
+    width:48px;
+    height:45px;
+    float:left;
+}
+.mlwz .mlcontact .cottable{
+    width:505px;
+    height:219px;
+    margin-top:50px;
+    float:left;
+    position: relative;
+}
+.mlwz .mlcontact .cottable span{
+    width:505px;
+    height:34px;
+    display:block;
+}
+.mlwz .mlcontact .cottable span a{
+    display:block;
+    width:167px;
+    height:34px;
+    background:url(../img/28.png) no-repeat;
+}
+.mlwz .mlcontact .cottable form{
+    width:505px;
+    height:140px;
+    line-height:138px;
+    position: relative;
+
+}
+.mlwz .mlcontact .cottable form .name{
+    width:436px;
+    height:35px;
+    line-height:44px;
+    font-size:16px;
+    margin-top:14px;
+}
+.mlwz .mlcontact .cottable form .opinion{
+    width:436px;
+    height:108px;
+    margin-top:20px;
+    resize:none;
+}
+.mlwz .mlcontact .cottable button{
+    width:45px;
+    height:45px;
+    background:url(../img/29.png) no-repeat;
+    cursor: pointer;
+    position: absolute;
+    top:160px;
+    right:46px;
+    list-style:none;
+    border:none;
+}
+.mlwz .mlfooter{
+    width:980px;
+    height:268px;
+}
+.mlwz .mlfooter .left{
+    width:412px;
+    height:268px;
+    float: left;
+}
+.mlwz .mlfooter .left h2{
+    display:block;
+    width:300px;
+    height:30px;
+    line-height:30px;
+    color:white;
+    font-size:21px;
+    padding-top:40px;
+    margin-left:20px;
+}
+.mlwz .mlfooter .left p{
+    width:320px;
+    height:74px;
+    font-size:16px;
+    color:white;
+    margin-left:20px;
+    margin-top:15px;
+}
+.mlwz .mlfooter .left ul{
+    width:300px;
+    height:28px;
+    margin-left:20px;
+}
+.mlwz .mlfooter .left ul li{
+    width:28px;
+    height:28px;
+    float: left;
+    margin-left:10px;
+    margin-right:6px;
+}
+.mlwz .mlfooter .left ul li a{
+    width:28px;
+    height:28px;
+    float: left;
+    cursor:pointer;
+}
+.mlwz .mlfooter .left span{
+    width:200px;
+    height:30px;
+    line-height:30px;
+    margin-left:20px;
+    color:white;
+}
+.mlwz .mlfooter .middle{
+    width:300px;
+    height:268px;
+    float:left;
+}
+.mlwz .mlfooter .middle h2{
+    width:200px;
+    height:30px;
+    line-height:30px;
+    margin-left:30px;
+    margin-top:40px;
+    font-size:21px;
+    color:white;
+}
+.mlwz .mlfooter .middle ul{
+    width:214px;
+    height:122px;
+    margin-top:18px;
+    margin-left:20px;
+}
+.mlwz .mlfooter .middle ul li{
+    width:98px;
+    height:26px;
+    line-height:28px;
+    float: left;
+}
+.mlwz .mlfooter .middle ul li a{
+    display: block;
+    width:68px;
+    height:26px;
+    line-height:26px;
+    margin-left:28px;
+    font-size:13px;
+    color:white;
+}
+.mlwz .mlfooter .right{
+    width:268px;
+    height:268px;
+    float:left;
+}
+.mlwz .mlfooter .right adress{
+    display: block;
+    width:240px;
+    height:30px;
+    line-height:30px;
+    margin-top:50px;
+    font-size:12px;
+    margin-left:45px;
+    color:white;
+}
+.mlwz .mlfooter .right p{
+    width:200px;
+    height:30px;
+    line-height:30px;
+    margin-top:6px;
+    font-size:12px;
+    margin-left:45px;
+    color: white;
+}
+.mlwz .mlfooter .right span{
+    display: block;
+    width:200px;
+    height:30px;
+    line-height:30px;
+    margin-top:6px;
+    font-size:12px;
+    margin-left:45px;
+    color: white;
+}
+.mlwz .mlfooter .right em{
+    display: block;
+    width:200px;
+    height:30px;
+    line-height:30px;
+    margin-top:6px;
+    font-size:12px;
+    margin-left:45px;
+    color: white;
+    font-style: normal;
+}
+

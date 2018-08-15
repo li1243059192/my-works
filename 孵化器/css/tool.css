@@ -1,0 +1,50 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5 tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+header,figure,article{
+    margin: 0;
+    padding:0;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+#model img:hover{-webkit-animation:swing 1s .2s ease both;
+    -moz-animation:swing 1s .2s ease both;
+}@-webkit-keyframes swing{
+     20%,40%,60%,80%,100%{-webkit-transform-origin:top center}
+     20%{-webkit-transform:rotate(15deg)}
+     40%{-webkit-transform:rotate(-10deg)}
+     60%{-webkit-transform:rotate(5deg)}
+     80%{-webkit-transform:rotate(-5deg)}
+     100%{-webkit-transform:rotate(0deg)}
+ }@-moz-keyframes swing{
+       20%,40%,60%,80%,100%
+       {-moz-transform-origin:top center}
+       20%{-moz-transform:rotate(15deg)}
+       40%{-moz-transform:rotate(-10deg)}
+       60%{-moz-transform:rotate(5deg)}
+       80%{-moz-transform:rotate(-5deg)}
+       100%{-moz-transform:rotate(0deg)}
+   }
+
+
+
+#tour img:hover{-webkit-animation:tada 1s .2s ease both;-moz-animation:tada 1s .2s ease both;}@-webkit-keyframes tada{0%{-webkit-transform:scale(1)}10%,20%{-webkit-transform:scale(0.9) rotate(-3deg)}30%,50%,70%,90%{-webkit-transform:scale(1.1) rotate(3deg)}40%,60%,80%{-webkit-transform:scale(1.1) rotate(-3deg)}100%{-webkit-transform:scale(1) rotate(0)}}@-moz-keyframes tada{0%{-moz-transform:scale(1)}10%,20%{-moz-transform:scale(0.9) rotate(-3deg)}30%,50%,70%,90%{-moz-transform:scale(1.1) rotate(3deg)}40%,60%,80%{-moz-transform:scale(1.1) rotate(-3deg)}100%{-moz-transform:scale(1) rotate(0)}}
+
+
+#information img:hover{-webkit-animation:fadeInLeft 1s .2s ease both;-moz-animation:fadeInLeft 1s .2s ease both;}@-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translateX(-20px)}100%{opacity:1;-webkit-transform:translateX(0)}}@-moz-keyframes fadeInLeft{0%{opacity:0;-moz-transform:translateX(-20px)}100%{opacity:1;-moz-transform:translateX(0)}}
